@@ -1,7 +1,7 @@
 R#!/usr/bin/python3
 """a Rectangle subclass Square."""
 
-class Square(Rectangle):
+class Square():
     """Represent a square."""
 
     def __init__(self, size):
