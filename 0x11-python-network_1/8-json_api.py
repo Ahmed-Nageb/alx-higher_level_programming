@@ -23,5 +23,5 @@ if __name__ == "__main__":
             print("No result")
         else:
             print("[{}] {}".format(r.json().get('id'), r.json().get('name')))
-    except:
+    finally:
         print("Not a valid JSON")
